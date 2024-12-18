@@ -17,7 +17,7 @@ import com.example.demo.entity.Employee;
 import com.example.demo.repository.EmployeeRepository;
 import com.example.demo.service.EmployeeService;
 
-@CrossOrigin("*")
+@CrossOrigin(origins = {"http://localhost:3000", "*"})
 @RestController
 public class EmployeeController {
 
